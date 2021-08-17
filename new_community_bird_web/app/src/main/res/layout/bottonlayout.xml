@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:background="@color/gray"
+    android:layout_gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/id_tab">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/tab_health"
+            android:background="@drawable/tab_app"/>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_app"
+            android:gravity="center"
+            android:text="咨询"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/id_contact">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/tab_test"
+            android:background="@drawable/tab_contact"/>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_contact"
+            android:gravity="center"
+            android:text="饮食"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_tool">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/tab_tool"
+            android:background="@drawable/tab_tool"/>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_tool"
+            android:gravity="center"
+            android:text="运动"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

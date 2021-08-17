@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_else"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".elseActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll_main_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/else_ll_1"
+            android:layout_width="match_parent"
+            android:layout_height="645dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/else_btn_1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="15dp"
+                android:background="@drawable/qita_btn"
+                android:gravity="left"
+                android:text="跌倒检测"
+                android:paddingLeft="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/photo_thirty_eight"
+                android:drawablePadding="12dp">
+            </Button>
+
+            <Button
+                android:id="@+id/else_btn_2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="15dp"
+                android:background="@drawable/qita_btn"
+                android:gravity="left"
+                android:text="健康检测"
+                android:paddingLeft="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/photo_twenty_three"
+                android:drawablePadding="12dp">
+            </Button>
+
+            <Button
+                android:id="@+id/else_btn_3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="15dp"
+                android:background="@drawable/qita_btn"
+                android:gravity="left"
+                android:text="健康自诊"
+                android:paddingLeft="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/photo_twenty_nine"
+                android:drawablePadding="12dp">
+            </Button>
+
+            <Button
+                android:id="@+id/else_btn_4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="15dp"
+                android:background="@drawable/qita_btn"
+                android:gravity="left"
+                android:text="免费咨询"
+                android:paddingLeft="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/photo_twenty_five"
+                android:drawablePadding="12dp">
+            </Button>
+
+            <Button
+                android:id="@+id/else_btn_5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="15dp"
+                android:background="@drawable/qita_btn"
+                android:gravity="left"
+                android:text="预约挂号"
+                android:paddingLeft="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/photo_twenty_seven"
+                android:drawablePadding="12dp">
+            </Button>
+
+            <Button
+                android:id="@+id/else_btn_6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="15dp"
+                android:background="@drawable/qita_btn"
+                android:gravity="left"
+                android:text="紧急送医"
+                android:paddingLeft="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/photo_thirty_one"
+                android:drawablePadding="12dp">
+            </Button>
+
+            <Button
+                android:id="@+id/else_btn_7"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="15dp"
+                android:background="@drawable/qita_btn"
+                android:gravity="left"
+                android:text="地图"
+                android:paddingLeft="10dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/photo_thirty_nine"
+                android:drawablePadding="12dp">
+            </Button>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/else_ll_2"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/ll_1"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ll_1">
+
+            <Button
+                android:id="@+id/else_menu_btn_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="资讯"
+                android:textSize="15sp"
+                android:textColor="#FF6347"
+                android:drawableTop="@drawable/photo_three"
+                android:background="@android:color/transparent"
+
+                >
+            </Button>
+
+            <Button
+                android:id="@+id/else_menu_btn_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="工具"
+                android:textSize="15sp"
+                android:textColor="#E066FF"
+                android:drawableTop="@drawable/photo_five"
+                android:background="@android:color/transparent"
+                >
+            </Button>
+
+            <Button
+                android:id="@+id/else_menu_btn_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="其他"
+                android:textSize="15sp"
+                android:textColor="#f4ea2a"
+                android:drawableTop="@drawable/photo_seven"
+                android:background="@android:color/transparent"
+                >
+            </Button>
+
+            <Button
+                android:id="@+id/else_menu_btn_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="我的"
+                android:textSize="15sp"
+                android:textColor="#FFB5C5"
+                android:drawableTop="@drawable/photo_nine"
+                android:background="@android:color/transparent"
+                >
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
